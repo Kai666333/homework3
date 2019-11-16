@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>注册</h2>
+<form method="POST">
+    用户名:<input type="text" name="USERNAME"><br>
+    密码：<input type="password" name="PASSWORD"><br>
+    确认密码:<input type="password" name="CONFIRM"><br>
+    <input type="submit" value="注册">
+</form>
+{% endblock %}
